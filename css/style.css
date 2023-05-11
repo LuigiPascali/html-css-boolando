@@ -9,8 +9,67 @@
 }
 
 /* 
+    GENERAL
+*/
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row-wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul-container {
+    display: flex;
+    flex-flow: row-wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
     HEADER
 */
+
+header{
+    height: 50px;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+}
+
+.header-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #FF6900;
+    z-index: 99;
+}
+
+nav{
+    padding: 15px;
+    width: 100%;
+}
+
+nav ul{
+    max-width: 30%;
+}
+nav li{
+    padding: 0 5px;
+    font-size: 13px;
+}
+
+nav img{
+    width: 100px;
+}
 
 /* 
     MAIN
