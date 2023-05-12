@@ -97,6 +97,10 @@ header {
     position: relative;
 }
 
+.navbar-container > * {
+    color: #FFFFFF;
+}
+
 ul {
     list-style: none;
 }
